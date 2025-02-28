@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์งานถ่ายภาพ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- สร้างเมนู -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">ภาพถ่ายสุด exclusive</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">บริการ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link">เกี่ยวกับเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">ติดต่องาน</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- การสร้าง Slider -->
+    <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+                <ol class="carousel-indicators">
+                    <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                    <button data-bs-target="#mySlider" data-bs-slide-to="1" class="active"></button>
+                    <button data-bs-target="#mySlider" data-bs-slide-to="2" class="active"></button>
+                </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">หน้าต่าง</h1>
+                            <p>การได้รับแสงธรรมชาติจากแสงที่ผ่านหน้าต่างเข้ามาในบ้านหรือออฟฟิศเป็นหนึ่งในวิธีที่ดีที่สุดในการทำให้สภาพแวดล้อมในที่อยู่อาศัยหรือที่ทำงานของเราดูสดใสและมีชีวิตชีวา แสงธรรมชาตินี้ไม่เพียงแค่ช่วยให้เรามองเห็นสิ่งต่าง ๆ ได้ชัดเจนขึ้น</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">แสงพระอาทิตย์ขึ้น</h1>
+                            <p>หากพระอาทิตย์ยามเช้า​ แสงที่สาดส่องมา
+                                เป็นแสงแห่งความหวัง​ และพลังที่เติมให้ทุกเช้า
+                                เรามีหน้าที่ตื่นขึ้นมาเพื่อรับแสง​ และพลังนี้
+                                คนทุกคนไม่ต้องสิ้นหวัง​ หรือท้อแท้หมดกำลังใจ
+                                ตื่นขึ้นมารับแสงแห่งความหวังแล้วก้าวต่อไป</p>
+                        </div>
+                </div>
+            </div>
+                <div class="carousel-item carousel-image-3 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">พระอาทิตย์ตกดิน
+                            </h1>
+                            <p>แสงสุดท้ายในแต่ละวันที่เราจะสามารถมองเห็นได้จากห ลายๆที่ พระอาทิตย์ตก ไม่ได้เพียงแต่เป็นสัญญาณของการสิ้นสุดในวันนั้นๆ แต่ยังเป็นแสงแห่งการผ่อนคลายที่ดีที่สุดอย่างหนึ่ง ไม่ว่าวันนี้คุณจะเหนื่อยล้าแค่ไหน ให้สายลมและแสงแดดจางๆได้บรรเทาความเหนื่อยล้า</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section-->
+    <section id="service" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-solid fa-user-tie fa-3x mb-2"></i>
+                    <h3>ไกด์นำเที่ยว</h3>
+                    <p>เรามีความรู้ความเข้าใจในด้านของการสื่อสารโดยเฉพาะภาษาอังกฤษ เราสามารถสื่อสารและนำคุณเที่ยวในสถานที่ต่างๆได้ตามที่ลูกค้าต้องการ</p>
+                    <p>We have knowledge and understanding in the field of communication, especially English. We can communicate and guide you to various places as the customer desires
+                    </p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-solid fa-camera fa-3x mb-2"></i>
+                    <h3>รับถ่ายภาพ</h3>
+                    <p>ไม่ว่าคุณจะอยากถ่ายแบบไหน ความต้องการแบบไหน เราสามารถถ่ายให้คุณได้ตามที่คุณต้องการ เพื่อให้ลูกค้าได้สิ่งที่ลูกค้าต้องการมากที่สุด</p>
+                    <p>No matter what kind of photography you want to take. What kind of needs? We can take photos for you as you wish To give customers what they want the most </p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-photo-video fa-3x mb-2"></i>
+                    <h3>ตกแต่งรูปภาพ</h3>
+                    <p>เราสามารถตกแต่งภาพที่คุณถ่ายได้และตรงตรามความต้องการของลูกค้า ภาพทุกภาพที่แต่งจะไม่มีการใช้ AI ในการทำอย่างแน่นอน เพราะทุกขั้นตอนวิธีการเราจะใช้คนจริงๆในการแต่งภาพ เพื่อให้ลูกค้าเกิดความพึงพอใจต่อการบริการงานของเรา</p>
+                    <p>We can edit the photos you take to meet the customer's needs. All images edited will definitely not use AI. Because every step of the way, we use real people to edit the images. To make customers satisfied with our services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+    <section id="about">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container p-5">
+                        <h1>เกี่ยวกับเรา</h1>
+                        <p>เราจัดทำเว็บไซต์นี้ขึ้นเพื่อส่งงานคอมพิวเตอร์ ในรายวิชา ว31285 เทคโนโลยีเว็บ โดยครูผู้สอน นาย อนรรฆ สาสุข</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery -->
+    <section id="gallery" class="p-5">
+        <div class="container">
+            <h1 class="text-center">ผลงานของเรา</h1>
+            <p class="text-center">ผลงานทั้งหมดที่ได้เห็นในนี้เป็นภาพจากการฝึกถ่าย และแต่งภาพของตัวเจ้าของเว็บไซต์เอง เพราะตัวเจ้าของเว็บไซต์นั้นเกิดความชอบในการทำ เลยมีการจัดทำผลงานนี้ลงบนเว็บไซต์</p>
+            <!-- image -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="image/stair.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="image/activity.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="image/light.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="image/cave.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="image/wow.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="image/sea.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="image/Tree.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="image/com.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="image/cafe.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy; JuntaratSungkrajang 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+           <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ติดต่องาน</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>อีเมล</label>
+                            <input type="email" placeholder="ป้อนอีเมลของคุณ" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>หัวข้อ</label>
+                            <input type="text" placeholder="เสนอหัวข้องานของคุณ" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>รายละเอียด</label>
+                            <textarea id="" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+                    <button class="btn btn-success">ส่งข้อมูล</button>
+                </div>
+           </div> 
+        </div>
+    </div>
+</body>
+</html>
